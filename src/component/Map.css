@@ -1,0 +1,33 @@
+.main-div {
+  width: 100%;
+  height: 550px;
+}
+.map__details {
+  position: "absolute";
+  transform: "translate(-50%, -50%)";
+  z-index: 1;
+}
+.map_data {
+  display: "flex";
+  float: "column";
+  justify-content: "center";
+  width: "100px";
+}
+.map__img {
+  width: 100px !important;
+  height: 80px !important;
+}
+.map__details :hover {
+  z-index: 22;
+}
+
+.map__pointer {
+  cursor: "pointer";
+}
+.stop-id {
+  background-color: white;
+  width: 60px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: turquoise;
+}
